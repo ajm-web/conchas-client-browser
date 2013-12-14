@@ -33,6 +33,7 @@ $ gem install compass
 and then
 ```
 $ git clone https://github.com/ajm-web/conchas-client-browser.git
+$ git checkout develop
 $ cd conchas-client-browser
 $ bower install
 $ npm install
