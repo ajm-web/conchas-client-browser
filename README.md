@@ -1,36 +1,24 @@
 conchas-client-browser
 ======================
 
-## Generate apps (you don't have to do)
-
-we use [yeoman](http://yeoman.io/) to create this app
-so we installed yeoman 
-
-```
-$ npm install -g yo
-$ npm install -g generator-angular
-$ yo angular
-$ bower install angular-ui
-$ rm -rf node_modules
-$ npm install
-```
-
-and you need to install compass
-```
-$ gem install compass
-```
-
 ## Getting Started
 
-required 
-+ ruby
-+ gem
-+ compass
+### First you need to install compass
+
 ```
 $ gem install compass
 ```
 
-and then
+### Generator and other
+
+we use [yeoman](http://yeoman.io/) to generate this app
+
+```
+$ npm install -g yo grunt-cli bower
+$ npm install -g generator-angular
+```
+
+### clone and start server
 ```
 $ git clone https://github.com/ajm-web/conchas-client-browser.git
 $ git checkout develop
